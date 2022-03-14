@@ -1,0 +1,13 @@
+@import "bootstrap";
+@import "jquery-ui";
+@import "jquery-ui/datepicker";
+
+.ui-datepicker{
+  position: absolute;
+  top: 38px;
+  display: none;
+  z-index: 9999999;
+}
+#ui-datepicker-div{
+  opacity: 0;
+}
